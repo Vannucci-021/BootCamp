@@ -63,6 +63,13 @@ body {
         color: white;
         box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
     }
+    
+    #principal button:hover {
+        cursor: pointer;
+        transform: translateY(-5px);
+        transition-duration: 1s;
+        box-shadow: 3px 5px 4px hwb(0 31% 68% / 0.918);
+    }
 
 /* Seção Principal do site */
 
@@ -96,6 +103,13 @@ section {
             background-color: black;
             font-weight: bold;
             padding: 5px;
+        }
+
+        #button-cadastrar:hover {
+            cursor: pointer;
+            transform: translateY(-5px);
+            transition-duration: 1s;
+            box-shadow: 3px 5px 4px hwb(0 31% 68% / 0.918);
         }
 
 /* Formulário */
